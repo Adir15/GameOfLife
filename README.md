@@ -19,7 +19,7 @@ Wherever there is life, even if 4 or more neighbors are alive, death will occur 
 *The diagonal squares should be considered as part of the neighbors of a square touching them.
 
 
-# I implemented conway's idea with javafx.
+I implemented conway's idea with javafx.
 When the game opens a matrix with a random amount of full squares will appear on it. 
 Each press of the button will change the state of the squares on the matrix according to Conway's organism laws.
 
