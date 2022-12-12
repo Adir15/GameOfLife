@@ -9,11 +9,17 @@ Each site can have one of the following two situations:
 
 * From now on we will refer to each full square as "there is life" and an empty square as "no life"
 
-When the initial image that opens when the game starts is random, and after that the full squares - the "living organisms" - operate according to Coway's genetic laws:
+When the initial image that opens when the game starts is random,
+and after that the full squares - the "living organisms" - operate according to Coway's genetic laws:
+
 1. Birth - in every site where there is no life it has exactly 3 living neighbors, there will be birth in the next generation. Otherwise the cell will remain empty.
+
 2. Death - in every site where there is life, which has 0 or 1 living neighbors, death will occur in the next generation as a result of loneliness.
 Wherever there is life, even if 4 or more neighbors are alive, death will occur as a result of a population explosion.
+
 3. Existence - in any site where there is life and it has 2 or 3 living neighbors, it will continue to exist in the next generation as well.
+
+
 
 * The processes of birth, death and existence occur at the same time in all sites and thus a new life situation of a new generation is created.
 *The diagonal squares should be considered as part of the neighbors of a square touching them.
@@ -26,5 +32,6 @@ Each press of the button will change the state of the squares on the matrix acco
 
 
 
-https://user-images.githubusercontent.com/104766812/207023843-3718611a-7fc2-469b-9efe-0478af4f4223.mp4
+![gameOfLife](https://user-images.githubusercontent.com/104766812/207024790-a9bc279f-28e5-4e1f-9413-0290d6610bf7.gif)
+
 
